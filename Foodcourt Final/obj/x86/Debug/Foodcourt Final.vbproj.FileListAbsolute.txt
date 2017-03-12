@@ -1,0 +1,41 @@
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.LoginForm1.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Resources.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt Final.vbproj.GenerateResource.Cache
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\bin\Debug\Foodcourt Final.exe
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\bin\Debug\Foodcourt Final.pdb
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\bin\Debug\Foodcourt Final.xml
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.FormCekKoneksi.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt Final.exe
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt Final.xml
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt Final.pdb
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Mode.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.FormInputDataCounter.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.FormInputDataMakanan.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\bin\Debug\Foodcourt Final.exe.manifest
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\bin\Debug\Foodcourt Final.application
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt Final.exe.manifest
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt Final.application
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Counter.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Admin.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Kasir.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.LoginFormKasir.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.LoginFormCounter.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt Final.vbprojResolveAssemblyReference.cache
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Laporan.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Daftar_ID_Counter.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Tentang.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\bin\Debug\Foodcourt Final.exe.config
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.LaporanBulananview.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.LaporanTahunanview.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.laporanharianview.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Edit_Menu.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Laporan_Counter_CO1.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.MenuTerlaris.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Counter_Terlaris.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Riwayat_Transaksi.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Edit_Pesanan.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.BulananGrafik.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.TahunanGrafik.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.Laporan_Per_Counter.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.LaporanCO1.resources
+C:\Users\Agung Nurimam\Documents\Visual Studio 2010\Projects\Foodcourt Final\Foodcourt Final\obj\x86\Debug\Foodcourt_Final.LaporanCO2.resources

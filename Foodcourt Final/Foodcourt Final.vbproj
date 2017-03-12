@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{156F4FEC-ECE8-4082-9154-F81D9B498B36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Foodcourt_Final.My.MyApplication</StartupObject>
+    <RootNamespace>Foodcourt_Final</RootNamespace>
+    <AssemblyName>Foodcourt Final</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Foodcourt Final\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Foodcourt Final.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Foodcourt Final.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8B9F6539231A9BAF16B0AF5379261688D58F97D2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Foodcourt Final_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.Designer.vb">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BulananGrafik.Designer.vb">
+      <DependentUpon>BulananGrafik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BulananGrafik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Counter Terlaris.Designer.vb">
+      <DependentUpon>Counter Terlaris.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Counter Terlaris.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit Menu.Designer.vb">
+      <DependentUpon>Edit Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit Pesanan.Designer.vb">
+      <DependentUpon>Edit Pesanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Pesanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCekKoneksi.Designer.vb">
+      <DependentUpon>FormCekKoneksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCekKoneksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInputDataCounter.Designer.vb">
+      <DependentUpon>FormInputDataCounter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormInputDataCounter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInputDataMakanan.Designer.vb">
+      <DependentUpon>FormInputDataMakanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormInputDataMakanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasir.Designer.vb">
+      <DependentUpon>Kasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan Per Counter.Designer.vb">
+      <DependentUpon>Laporan Per Counter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan Per Counter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan.Designer.vb">
+      <DependentUpon>Laporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaporanBulananview.Designer.vb">
+      <DependentUpon>LaporanBulananview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanBulananview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaporanCO2.Designer.vb">
+      <DependentUpon>LaporanCO2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanCO2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanCounterCO2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanCounterCO2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\Laporanbulanan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Laporanbulanan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanBulananGrafik.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanBulananGrafik.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanCounter.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanCounter.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="laporanharianview.Designer.vb">
+      <DependentUpon>laporanharianview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporanharianview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaporanTahunanview.Designer.vb">
+      <DependentUpon>LaporanTahunanview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanTahunanview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanCounterGrafik.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanCounterGrafik.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanHarian.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanHarian.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanTahunan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanTahunan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanTahunanGrafik.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanTahunanGrafik.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginFormKasir.Designer.vb">
+      <DependentUpon>LoginFormKasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginFormKasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginFormCounter.Designer.vb">
+      <DependentUpon>LoginFormCounter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginFormCounter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuTerlaris.Designer.vb">
+      <DependentUpon>MenuTerlaris.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuTerlaris.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mode.Designer.vb">
+      <DependentUpon>Mode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="Counter.Designer.vb">
+      <DependentUpon>Counter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Counter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daftar ID Counter.Designer.vb">
+      <DependentUpon>Daftar ID Counter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Daftar ID Counter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resizer.vb" />
+    <Compile Include="Riwayat Transaksi.Designer.vb">
+      <DependentUpon>Riwayat Transaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Riwayat Transaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TahunanGrafik.Designer.vb">
+      <DependentUpon>TahunanGrafik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TahunanGrafik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tentang.Designer.vb">
+      <DependentUpon>Tentang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tentang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BulananGrafik.resx">
+      <DependentUpon>BulananGrafik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Counter Terlaris.resx">
+      <DependentUpon>Counter Terlaris.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit Menu.resx">
+      <DependentUpon>Edit Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit Pesanan.resx">
+      <DependentUpon>Edit Pesanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCekKoneksi.resx">
+      <DependentUpon>FormCekKoneksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInputDataCounter.resx">
+      <DependentUpon>FormInputDataCounter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInputDataMakanan.resx">
+      <DependentUpon>FormInputDataMakanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasir.resx">
+      <DependentUpon>Kasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan Per Counter.resx">
+      <DependentUpon>Laporan Per Counter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan.resx">
+      <DependentUpon>Laporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanBulananview.resx">
+      <DependentUpon>LaporanBulananview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanCO2.resx">
+      <DependentUpon>LaporanCO2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanCounterCO2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanCounterCO2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\Laporanbulanan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Laporanbulanan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanBulananGrafik.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanBulananGrafik.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanCounter.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanCounter.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporanharianview.resx">
+      <DependentUpon>laporanharianview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanTahunanview.resx">
+      <DependentUpon>LaporanTahunanview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanCounterGrafik.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanCounterGrafik.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanHarian.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanHarian.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanTahunan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanTahunan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanTahunanGrafik.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanTahunanGrafik.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginFormKasir.resx">
+      <DependentUpon>LoginFormKasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginFormCounter.resx">
+      <DependentUpon>LoginFormCounter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuTerlaris.resx">
+      <DependentUpon>MenuTerlaris.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mode.resx">
+      <DependentUpon>Mode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Counter.resx">
+      <DependentUpon>Counter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daftar ID Counter.resx">
+      <DependentUpon>Daftar ID Counter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Riwayat Transaksi.resx">
+      <DependentUpon>Riwayat Transaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TahunanGrafik.resx">
+      <DependentUpon>TahunanGrafik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tentang.resx">
+      <DependentUpon>Tentang.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Foodcourt Final_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20151204_125711.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
